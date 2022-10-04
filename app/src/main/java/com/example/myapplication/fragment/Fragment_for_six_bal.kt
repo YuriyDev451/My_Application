@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.myapplication.R
+import com.example.myapplication.databinding.FragmentForSixBalBinding
 
 
 class Fragment_for_six_bal : Fragment() {
@@ -16,7 +17,8 @@ class Fragment_for_six_bal : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        return inflater.inflate(R.layout.fragment_for_six_bal, container, false)
+        val binding = FragmentForSixBalBinding.inflate(inflater)
+        return binding.root
     }
 
     companion object {

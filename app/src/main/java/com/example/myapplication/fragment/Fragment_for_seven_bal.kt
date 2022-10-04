@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.myapplication.R
+import com.example.myapplication.databinding.FragmentForSevenBalBinding
 
 
 class Fragment_for_seven_bal : Fragment() {
@@ -17,9 +18,17 @@ class Fragment_for_seven_bal : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
-        return inflater.inflate(R.layout.fragment_for_seven_bal, container, false)
+        val binding = FragmentForSevenBalBinding.inflate(inflater)
+        return binding.root
     }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+
+    }
+
+
 
     companion object {
 

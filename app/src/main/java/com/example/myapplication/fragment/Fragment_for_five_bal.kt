@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.myapplication.R
+import com.example.myapplication.databinding.FragmentForFiveBalBinding
 
 
 class Fragment_for_five_bal : Fragment() {
@@ -15,7 +16,8 @@ class Fragment_for_five_bal : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_for_five_bal, container, false)
+        val binding = FragmentForFiveBalBinding.inflate(inflater)
+        return binding.root
     }
 
     companion object {
