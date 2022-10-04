@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    tools:context=".fragment.Fragment_for_seven_bal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="Ümumi bal" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="Fənnin krediti" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="Ümumi bal" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="Fənnin krediti" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="Ümumi bal" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="Fənnin krediti" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="Ümumi bal" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="Fənnin krediti" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="Ümumi bal" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="Fənnin krediti" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="Ümumi bal" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="Fənnin krediti" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="Ümumi bal" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="Fənnin krediti" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
