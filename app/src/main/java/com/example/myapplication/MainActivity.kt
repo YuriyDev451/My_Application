@@ -59,6 +59,8 @@ class MainActivity : AppCompatActivity() {
 
             }
         }
+
+
     }
 
     fun fragment(fragment: Fragment, id: Int) {

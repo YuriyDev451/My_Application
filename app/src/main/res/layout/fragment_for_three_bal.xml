@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragment.Fragment_for_three_bal"
-    android:layout_marginTop="40dp">
+    android:layout_marginTop="60dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,31 +16,27 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="10dp">
-
-            <EditText
-                android:id="@+id/editTextTextPersonName"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/buttonResult"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:minHeight="48dp"
                 android:layout_weight="1"
-                android:ems="10"
-                android:inputType="number"
-                android:hint="Ümumi bal"
+                android:text="Button"
+                tools:viewBindingType="android.widget.Button"
                 />
 
-            <EditText
-                android:id="@+id/editTextTextPersonName2"
+            <TextView
+                android:id="@+id/TVForResult"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:minWidth="48dp"
-                android:minHeight="48dp"
                 android:layout_weight="1"
-                android:ems="10"
-                android:inputType="number"
-                android:hint="Fənnin krediti" />
+                android:paddingLeft="20dp"
+                android:text="TextView"
+                android:textColor="#050505"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:viewBindingType="android.widget.TextView"/>
         </LinearLayout>
 
         <LinearLayout
@@ -50,7 +46,7 @@
             android:layout_marginTop="10dp">
 
             <EditText
-                android:id="@+id/editTextTextPersonName3"
+                android:id="@+id/editTextForBalOne"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:minWidth="48dp"
@@ -58,10 +54,43 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:inputType="number"
-                android:hint="Ümumi bal" />
+                android:hint="Ümumi bal"
+                tools:viewBindingType="android.widget.EditText"
+                />
 
             <EditText
-                android:id="@+id/editTextTextPersonName4"
+                android:id="@+id/editTextForKreditOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="Fənnin krediti"
+                tools:viewBindingType="android.widget.EditText"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/editTextForBalTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="Ümumi bal"
+                tools:viewBindingType="android.widget.EditText"/>
+
+            <EditText
+                android:id="@+id/editTextForKreditTwo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -69,7 +98,8 @@
                 android:inputType="number"
                 android:minWidth="48dp"
                 android:minHeight="48dp"
-                android:hint="Fənnin krediti" />
+                android:hint="Fənnin krediti"
+                tools:viewBindingType="android.widget.EditText"/>
 
         </LinearLayout>
 
@@ -81,7 +111,7 @@
             android:layout_marginTop="10dp">
 
             <EditText
-                android:id="@+id/editTextTextPersonName5"
+                android:id="@+id/editTextForBalThree"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -89,10 +119,11 @@
                 android:inputType="number"
                 android:minWidth="48dp"
                 android:minHeight="48dp"
-                android:hint="Ümumi bal" />
+                android:hint="Ümumi bal"
+                tools:viewBindingType="android.widget.EditText"/>
 
             <EditText
-                android:id="@+id/editTextTextPersonName6"
+                android:id="@+id/editTextForKreditThree"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -100,7 +131,8 @@
                 android:inputType="number"
                 android:minWidth="48dp"
                 android:minHeight="48dp"
-                android:hint="Fənnin krediti" />
+                android:hint="Fənnin krediti"
+                tools:viewBindingType="android.widget.EditText"/>
         </LinearLayout>
     </LinearLayout>
 </FrameLayout>
