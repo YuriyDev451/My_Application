@@ -39,22 +39,12 @@
     </LinearLayout>
 
     <FrameLayout
-        android:id="@+id/place_holder"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linear_layout">
-
-    </FrameLayout>
-
-    <FrameLayout
         android:id="@+id/place_holder_for_data_entry"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/place_holder">
+        app:layout_constraintTop_toBottomOf="@+id/linear_layout">
 
     </FrameLayout>
 

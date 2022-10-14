@@ -16,11 +16,35 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="HESABLA"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/TVForResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:textColor="#050505"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginTop="10dp">
 
             <EditText
-                android:id="@+id/editTextTextPersonName7"
+                android:id="@+id/editTextForBalOne"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:minWidth="48dp"
@@ -31,7 +55,7 @@
                 android:hint="Ümumi bal" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName8"
+                android:id="@+id/editTextForKreditOne"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:minWidth="48dp"
@@ -49,7 +73,7 @@
             android:layout_marginTop="10dp">
 
             <EditText
-                android:id="@+id/editTextTextPersonName9"
+                android:id="@+id/editTextForBalTwo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:minWidth="48dp"
@@ -60,7 +84,7 @@
                 android:hint="Ümumi bal" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName10"
+                android:id="@+id/editTextForKreditTwo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:minWidth="48dp"
@@ -78,7 +102,7 @@
             android:layout_marginTop="10dp">
 
             <EditText
-                android:id="@+id/editTextTextPersonName11"
+                android:id="@+id/editTextForBalThree"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:minWidth="48dp"
@@ -89,7 +113,7 @@
                 android:hint="Ümumi bal" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName12"
+                android:id="@+id/editTextForKreditThree"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:minWidth="48dp"
@@ -107,7 +131,7 @@
             android:layout_marginTop="10dp">
 
             <EditText
-                android:id="@+id/editTextTextPersonName14"
+                android:id="@+id/editTextForBalFour"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:minWidth="48dp"
@@ -118,7 +142,7 @@
                 android:hint="Ümumi bal" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName13"
+                android:id="@+id/editTextForKreditFour"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:minWidth="48dp"
@@ -136,7 +160,7 @@
             android:layout_marginTop="10dp">
 
             <EditText
-                android:id="@+id/editTextTextPersonName15"
+                android:id="@+id/editTextForBalFive"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:minWidth="48dp"
@@ -147,7 +171,7 @@
                 android:hint="Ümumi bal" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName16"
+                android:id="@+id/editTextForKreditFive"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:minWidth="48dp"
@@ -165,7 +189,7 @@
             android:layout_marginTop="10dp">
 
             <EditText
-                android:id="@+id/editTextTextPersonName17"
+                android:id="@+id/editTextForBalSix"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:minWidth="48dp"
@@ -176,7 +200,7 @@
                 android:hint="Ümumi bal" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName18"
+                android:id="@+id/editTextForKreditSix"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:minWidth="48dp"
@@ -194,7 +218,7 @@
             android:layout_marginTop="10dp">
 
             <EditText
-                android:id="@+id/editTextTextPersonName19"
+                android:id="@+id/editTextForBalSeven"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:minWidth="48dp"
@@ -205,7 +229,7 @@
                 android:hint="Ümumi bal" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName20"
+                android:id="@+id/editTextForKreditSeven"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:minWidth="48dp"

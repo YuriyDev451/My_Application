@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/new file/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1375" />
+        <entry key="..\:/new file/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.1375" />
+        <entry key="..\:/new file/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1375" />
         <entry key="..\:/new file/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/new file/app/src/main/res/layout/fragment_1.xml" value="0.20416666666666666" />
-        <entry key="..\:/new file/app/src/main/res/layout/fragment_for_five_bal.xml" value="0.18" />
+        <entry key="..\:/new file/app/src/main/res/layout/fragment_for_five_bal.xml" value="0.1" />
         <entry key="..\:/new file/app/src/main/res/layout/fragment_for_four_bal.xml" value="0.22" />
         <entry key="..\:/new file/app/src/main/res/layout/fragment_for_result.xml" value="0.22" />
         <entry key="..\:/new file/app/src/main/res/layout/fragment_for_seven_bal.xml" value="0.1634963768115942" />
